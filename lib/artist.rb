@@ -13,11 +13,11 @@ class Artist
     # @@song_count += 1
   end
   #
-  # def add_song_by_name(song)
+  def add_song_by_name(song)
   #   song = Song.new(song)
   #   add_song(song)
   #   @@song_count += 1
-  # end
+  end
   #
   # def self.song_count
   #   @@song_count
