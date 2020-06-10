@@ -6,15 +6,5 @@ class Author
     @posts = []
   end
 
-  def add_post(post)
-    @posts << post
-    post.author << self
-  end
-
-  def add_post_by_title(title)
-    post = Post.new(title)
-    @posts << post
-    post.author = self
-  end
 
 end
