@@ -8,9 +8,7 @@ class Song
     @@all << self
   end
 
-  def add_song
 
-  end
 
   def self.all
     @@all
