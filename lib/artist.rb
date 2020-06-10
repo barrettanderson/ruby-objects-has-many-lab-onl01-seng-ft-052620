@@ -18,11 +18,11 @@ class Artist
     add_song(song)
   #   @@song_count += 1
   end
-  #
-  # def self.song_count
+  
+  def self.song_count
   #   @@song_count
-  # end
-  # #
+  end
+
   def songs
     Song.all.select {|song| song.artist == self}
   end
